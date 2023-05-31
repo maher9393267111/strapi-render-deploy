@@ -51,11 +51,12 @@ module.exports = ({ env }) => {
       connection: {
         connectionString: env('DATABASE_URL'),
         host: env('DATABASE_HOST'),
-        port: env.int('DATABASE_PORT', 5432),
+        port: env.int('DATABASE_PORT'),
         database: env('DATABASE_NAME'),
         user: env('DATABASE_USERNAME'),
         password: env('DATABASE_PASSWORD'),
-        ssl: env.bool('DATABASE_SSL', true) && {
+        ssl: env.bool('DATABASE_SSL', true) 
+        && {
           key: env('DATABASE_SSL_KEY', undefined),
           cert: env('DATABASE_SSL_CERT', undefined),
           ca: env('DATABASE_SSL_CA', undefined),
@@ -70,6 +71,10 @@ module.exports = ({ env }) => {
       },
       pool: { min: env.int('DATABASE_POOL_MIN', 2), max: env.int('DATABASE_POOL_MAX', 10) },
     },
+
+
+
+
     sqlite: {
       connection: {
         filename: path.join(
