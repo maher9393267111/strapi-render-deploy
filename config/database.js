@@ -66,6 +66,7 @@ module.exports = ({ env }) => {
             'DATABASE_SSL_REJECT_UNAUTHORIZED',
             true
           ),
+          
         },
         schema: env('DATABASE_SCHEMA', 'public'),
       },
