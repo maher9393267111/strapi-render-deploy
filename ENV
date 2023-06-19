@@ -1,0 +1,27 @@
+
+
+HOST=0.0.0.0
+PORT=1337
+APP_KEYS=iM6qllIkqbZPlSTk2IJG3w==,CB9ngtJoNVVQO6lcNkc0LA==,F1k9WfhsqUDobvUD6Rjx5Q==,2O6WOj6Jpbnm2QDm6JIWIg==
+API_TOKEN_SALT=hgMI3XTNwVtQs3TEn6/MIg==
+ADMIN_JWT_SECRET=MgVZ3mQbNz2N6FxxHuBbsA==
+TRANSFER_TOKEN_SALT=EL7JvshZfB+wXwFHzw0MsA==
+# Database
+DATABASE_CLIENT=sqlite
+DATABASE_FILENAME=.tmp/data.db
+JWT_SECRET=C0lVAKm4nQxq+bkNbr8LgQ==
+
+
+
+
+DATABASE_PORT = 5432
+DATABASE_HOST =dpg-chrhnphmbg5e1f2qqbrg-a.frankfurt-postgres.render.com
+#  postgres://maher:xPFeKaylkJ1XXFTDDfyUJyzA6fOC5cJN@dpg-chrhnphmbg5e1f2qqbrg-a.frankfurt-postgres.render.com
+DATABASE_NAME =myfirst
+DATABASE_USERNAME =maher
+DATABASE_PASSWORD = xPFeKaylkJ1XXFTDDfyUJyzA6fOC5cJN
+
+  CLOUD_NAME = maher9911133
+
+    API_KEY = 442715196852148
+    API_SECRET = zFL1FnOG0PD64fdyyVa-8g5cs1s
